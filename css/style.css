@@ -18,3 +18,32 @@ footer{
 .row{
     --bs-gutter-x: 0rem !important;
 }
+.in{
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+    margin: 0px 180px;
+}
+h1{
+    font-size: 55px;
+    color: white;
+}
+hr{
+    color: white;
+    width: 90vw;
+    height: 5px;
+    margin: 0px auto;
+    opacity: 100%;
+}
+hr:not([size]) {
+    height: 5px;
+}
+.ceg{
+    margin: 0px auto;
+    width: 50vw;
+    text-align: center;
+}
+.undertheline{
+    margin: 0px auto;
+    text-align: center;
+}
