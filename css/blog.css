@@ -1,0 +1,48 @@
+main{
+    background-color: #5B4A43;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.klassz{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 15px;
+    color: white;
+}
+h2{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    color: white;
+}
+.kep{
+    height: 150px;
+    width: 300px;
+    
+}
+.kep1{
+    float: left;
+    border: 5px solid white;
+}
+.kep2{
+    float: right;
+    margin-top: 25px;
+    border: 5px solid white;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.kepi{
+    height: 240px;
+    width: 400px;
+}
+
+.kepx{
+    height: 200px;
+    width: 400px;
+
+}
+
+.kepz{
+    height: 130px;
+    width: 300px;
+}
