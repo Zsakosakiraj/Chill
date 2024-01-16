@@ -1,0 +1,19 @@
+main{
+    background-color: #5b4a43;
+    height: 71vh;
+    padding-top: 100px;
+}
+img{
+    width: 300px;
+    
+}
+p{
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+}
+table{
+    text-align: center;
+    margin-top: 100px;
+}
+
