@@ -1,11 +1,11 @@
 main{
     background-color: #5b4a43;
     height: 71vh;
-    padding-top: 100px;
+    padding-top: 100px !important;
 }
-img{
-    width: 300px;
-    
+a img{
+    width: 300px !important;
+    height: auto !important;
 }
 p{
     display: inline-block;
@@ -16,4 +16,10 @@ table{
     text-align: center;
     margin-top: 100px;
 }
-
+.dolt{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 100px;
+    float: right;
+}

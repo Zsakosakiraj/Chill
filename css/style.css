@@ -5,7 +5,7 @@ nav{
     background-size: cover;
 }
 .mainbg{
-    height: 75vh;
+    height: calc(75vh - 150px);
     background-size: cover;
     width: 100vw;
 }
@@ -88,4 +88,8 @@ h3{
 .wholefooter{
     margin-left: 230px;
     vertical-align: middle;
+}
+img:not(.mainbg):not(#zsak){
+    height: 150px;
+    width: 100vw;
 }
