@@ -89,7 +89,7 @@ h3{
     margin-left: 230px;
     vertical-align: middle;
 }
-img:not(.mainbg):not(#zsak){
+img:not(.mainbg):not(#zsak):not(.keppek):not(.kep1){
     height: 150px;
     width: 100vw;
 }
