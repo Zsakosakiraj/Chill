@@ -1,0 +1,43 @@
+main{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+body{
+    background-color: #5B4A43;
+}
+.row{
+    color: white;
+    
+    
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;   
+    
+}
+
+p{
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.keppek{
+    height: 200px;
+    width: 300px;
+    border: 1px solid white;
+    float: right;
+    margin: 0px 0px 10px 10px;
+    
+}
+
+.kep1{
+    height: 200px;
+    width: 300px;
+    border: 1px solid white;
+    float: left;
+    margin: 10px 10px 0px 0px;
+}
+
+

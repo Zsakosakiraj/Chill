@@ -4,7 +4,7 @@ nav{
     height: 138px;
     background-size: cover;
 }
-img{
+.mainbg{
     height: 75vh;
     background-size: cover;
     width: 100vw;
@@ -46,4 +46,11 @@ hr:not([size]) {
 .undertheline{
     margin: 0px auto;
     text-align: center;
+}
+.dot{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
 }

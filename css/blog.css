@@ -46,3 +46,9 @@ h2{
     height: 130px;
     width: 300px;
 }
+
+h3{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
