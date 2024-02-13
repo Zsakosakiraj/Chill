@@ -487,3 +487,24 @@ var picker = new ColorPicker(document.getElementById('picker'), {
     colorPreview.style.background = "rgb(" + rgb[0] + ", " + rgb[1] + ", " + rgb[2] + ")";
   }
 });
+
+let palettek = document.getElementsByClassName("palette"),
+    preview = document.getElementsByClassName("preview")[0],
+    card = document.getElementsByClassName("card")[0],
+    arkereso = document.getElementsByTagName("button")[0],
+    title = document.getElementsByClassName("card-title")[0],
+    text = document.getElementsByClassName("card-text");
+
+arkereso.addEventListener("click", clicked);
+function clicked(event){
+  let aktiv;
+  for (let i = 0; i < palettek.length; i++) {
+    if(palettek[i].classList.contains("active"))
+    {
+      preview.style.background = palettek[i].style.background;
+      card.style.opacity = "100%";
+      title.innerHTML = palettek[i].style.background;
+    }
+    
+  }
+}

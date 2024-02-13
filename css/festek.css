@@ -93,3 +93,36 @@
     text-align: center;
     line-height: 30px;
   }
+  main{
+    background-color: #5b4a43;
+    height: 71vh;
+    padding-top: 100px !important;
+  }
+  button{
+    width: 290px;
+    background-color: grey !important;
+    border: 1px solid black;
+  }
+  .row>*:not(.card) {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+.preview{
+  width: 240px;
+  height: 200px;
+  background-color: red;
+  margin: 10px auto;
+}
+.card{
+  margin-left: 200px;
+  text-align: center;
+  height: 335;
+  opacity: 0%;
+}
+#picker{
+  width: 400px !important;
+}
