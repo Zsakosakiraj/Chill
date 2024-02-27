@@ -7,3 +7,6 @@ footer li{
 input{
     user-select: none;
 }
+main{
+    background-image: url("../img/fabg.png");
+}
