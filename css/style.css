@@ -1,6 +1,6 @@
+
 nav{
     background-image: url("../img/banner.jpg");
-    width: 100vw;
     height: 138px;
     background-size: cover;
 }
@@ -11,8 +11,6 @@ nav{
 }
 footer{
     background-image: url("../img/banner.jpg");
-    width: 100vw;
-    height: 138px;
     background-size: cover;
     color: white;
 }
@@ -89,7 +87,13 @@ h3{
     margin-left: 230px;
     vertical-align: middle;
 }
-img:not(.mainbg):not(#zsak):not(.keppek):not(.kep1):not(.card-img-top){
+img:not(.mainbg):not(#zsak):not(.keppek):not(.kep1):not(.card-img-top):not(.footerimg){
     height: 150px;
     width: 100vw;
+}
+footer li{
+    list-style-type: none;
+}
+input{
+    user-select: none;
 }

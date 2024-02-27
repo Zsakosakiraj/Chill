@@ -1,0 +1,9 @@
+.keppek{
+    height: 250px;
+}
+footer li{
+    list-style-type: none;
+}
+input{
+    user-select: none;
+}

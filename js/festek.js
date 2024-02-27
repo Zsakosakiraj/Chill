@@ -493,7 +493,8 @@ let palettek = document.getElementsByClassName("palette"),
     card = document.getElementsByClassName("card")[0],
     arkereso = document.getElementsByTagName("button")[0],
     title = document.getElementsByClassName("card-title")[0],
-    text = document.getElementsByClassName("card-text");
+    text = document.getElementsByClassName("card-text")[0],
+    rendel = document.getElementById("rendel");
 
 arkereso.addEventListener("click", clicked);
 function clicked(event){
@@ -505,6 +506,11 @@ function clicked(event){
       card.style.opacity = "100%";
       title.innerHTML = palettek[i].style.background;
     }
-    
   }
+  let x = Math.floor((Math.random() * 3500) + 3000);
+  text.innerHTML = x + " Ft/l";
+  rendel.addEventListener("click", rendelclick);
+}
+function rendelclick(e){
+  alert("Kosárba helyeztük az árut!")
 }

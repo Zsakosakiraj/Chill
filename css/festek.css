@@ -94,8 +94,8 @@
     line-height: 30px;
   }
   main{
-    background-color: #5b4a43;
-    height: 71vh;
+    background-image: url("../img/festekbg.png");
+    height: 86vh;
     padding-top: 100px !important;
   }
   button{
@@ -103,7 +103,7 @@
     background-color: grey !important;
     border: 1px solid black;
   }
-  .row>*:not(.card) {
+  .row>*:not(.card):not(.exception) {
     flex-shrink: 0;
     width: 100%;
     max-width: 100%;
