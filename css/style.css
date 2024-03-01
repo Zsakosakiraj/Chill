@@ -1,0 +1,99 @@
+
+nav{
+    background-image: url("../img/banner.jpg");
+    height: 138px;
+    background-size: cover;
+}
+.mainbg{
+    height: calc(75vh - 150px);
+    background-size: cover;
+    width: 100vw;
+}
+footer{
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    color: white;
+}
+.row{
+    --bs-gutter-x: 0rem !important;
+}
+.in{
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+    margin: 0px 180px;
+}
+h1{
+    font-size: 55px;
+    color: white;
+}
+hr{
+    color: white;
+    width: 90vw;
+    height: 5px;
+    margin: 0px auto;
+    opacity: 100%;
+}
+hr:not([size]) {
+    height: 5px;
+} 
+.ceg{
+    margin: 0px auto;
+    width: 50vw;
+    text-align: center;
+}
+.undertheline{
+    margin: 0px auto;
+    text-align: center;
+}
+.dot {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: white;
+    font-weight: bold;
+}
+.open{
+    text-align: center;
+    display: inline-block;
+
+}
+.open div{
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.open{
+    font-size: 30px;
+}
+.open hr{
+    width: 230px;
+}
+h3{
+    font-size: 50px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.wholefooter{
+    margin-left: 230px;
+    vertical-align: middle;
+}
+img:not(.mainbg):not(#zsak):not(.keppek):not(.kep1):not(.card-img-top):not(.footerimg){
+    height: 150px;
+    width: 100vw;
+}
+footer li{
+    list-style-type: none;
+}
+input{
+    user-select: none;
+}

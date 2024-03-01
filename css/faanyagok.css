@@ -1,0 +1,12 @@
+.keppek{
+    height: 250px;
+}
+footer li{
+    list-style-type: none;
+}
+input{
+    user-select: none;
+}
+main{
+    background-image: url("../img/fabg.png");
+}
